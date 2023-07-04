@@ -6,7 +6,17 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Row(),
+      child: const Row(
+        children: <Widget>[
+          Column(
+            children: <Widget>[
+              Text('\$1000.00'),
+              Text('Balanço disponível'),
+            ],
+          ),
+          Icon(Icons.account_circle),
+        ],
+      ),
     );
   }
 }
