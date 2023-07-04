@@ -7,7 +7,7 @@ const Home({ Key? key }) : super(key: key);
   @override
   Widget build(BuildContext context){
     return const Scaffold(
-      body: Text('Ola mundo'),
+      body: Header(),
     );
   }
 }
