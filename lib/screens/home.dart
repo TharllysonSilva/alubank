@@ -6,6 +6,6 @@ const Home({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context){
-    return Scaffold(body: Header(),);
+    return const Scaffold(body: Header(),);
   }
 }
