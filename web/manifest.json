@@ -1,6 +1,6 @@
 {
-    "name": "alubank",
-    "short_name": "alubank",
+    "name": "estilizacao_componentes",
+    "short_name": "estilizacao_componentes",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
